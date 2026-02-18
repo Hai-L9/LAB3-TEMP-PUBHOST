@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joshua's Page - Resume</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./home.html">Lab 3</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text">
+            <i class="bi bi-controller fs-4" title="game controller thingy"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-5">
+      <h1 class="mb-4 section-title">Resume</h1>
+
+        <div class="col-12 col-lg-8">
+          <div class="p-4 border rounded shadow-sm">
+            <p class="mb-1"><strong>Name:</strong> Joshua Stone</p>
+            <p class="mb-1">
+              <strong>Email:</strong> Joshua.Stone-1@Colorado.EDU</p>
+            <p class="mb-3"><strong>Location:</strong> Boulder, Colorado</p>
+
+            <h2 class="h5 mb-3">Skills</h2>
+            <ul class="mb-0">
+              <li>Blender, Unity, 3D Generalist</li>
+              <li>Photoshop, AfterEffects, Digital Art</li>
+              <li>Java, Python, C++</li>
+              <li>HTML & CSS</li>
+            </ul>
+			<hr />
+			
+            <h2 class="h5">Summary</h2>
+            <p>
+              I am a technically minded creator with a blend of customer-facing operations experience and hands-on digital/VR production. I've worked with secure customer-data workflows, PII compliant databases, 3D/technical art, and real-time tools (Unity/SteamVR, 3D pipelines, and creative software).
+            </p>
+
+            <hr />
+
+            <h2 class="h5">Education</h2>
+            <p class="mb-2">
+              <strong>University of Colorado Boulder</strong> — Computer Science
+              <br />
+              <small class="text-muted">Expected Graduation: 2026</small>
+            </p>
+
+            <hr />
+
+            <h2 class="h5">Experience</h2>
+
+            <div class="mb-4">
+              <strong>Hiring/Verification Specialist</strong> — BIS Inc.
+              <span class="text-muted">| 2018–2022</span>
+              <ul class="mt-2 mb-0">
+                <li>
+                  Supported business clients and prospective customers with accurate,
+                  professional service
+                </li>
+                <li>Designed and managed a support ticket system still in use</li>
+                <li>
+                  Revamped a customer data storage server to meet PBSA + federal
+                  security requirements
+                </li>
+                <li>Rolled out productivity tools and trained staff on their use</li>
+              </ul>
+            </div>
+
+            <div class="mb-4">
+              <strong>Freelance 3D Modeler / Technical Artist</strong>
+              <span class="text-muted">| 2015–Present</span>
+              <ul class="mt-2 mb-0">
+                <li>
+                  Managed 1:1 client communication to ensure satisfaction and repeat business
+                </li>
+                <li>
+                  Coordinated marketing/customer retention to become the #1 rated commission
+                  artist on VRCT marketplace (Mar–Jul 2018)
+                </li>
+                <li>
+                  Self-taught: Java, HTML, Python; experience with SAI and Cubase AI + LE
+                </li>
+                <li>
+                  Worked with VR engines/software/hardware (Unity, SteamVR, HTC Vive,
+                  Meta Quest, Samsung GearVR)
+                </li>
+                <li>NVIDIA Developer Program member</li>
+              </ul>
+            </div>
+
+            <hr />
+
+            <h2 class="h5">Projects (reused)</h2>
+
+            <div class="mb-4">
+              <strong>Real-Time AI Voice Changer (MMVC-powered)</strong>
+              <ul class="mt-2 mb-0">
+                <li>
+                  Built a real-time AI voice conversion app by creating the UI and
+                  integrating multiple model types for live speech conversion
+                </li>
+                <li>Cross-compatible with SVC / DDSP / RVC model formats</li>
+                <li>Designed to run in Docker or Anaconda</li>
+                <li>
+                  Real-time conversion enabled via open-source PyTorch libraries +
+                  NVIDIA CUDA
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-4">
+              <strong>VRC-DMX (VRChat Stage Lighting Toolkit)</strong>
+              <ul class="mt-2 mb-0">
+                <li>
+                  Unity 2019.4 + UdonSharp package of shaders/scripts/models for stage-style
+                  lighting in VRChat
+                </li>
+                <li>Translates Artnet DMX input to control virtual light sources</li>
+                <li>
+                  Synchronizes lighting/environment states for remote audiences during live
+                  performances
+                </li>
+                <li>
+                  Drag-and-drop workflow with a simple UI so stage-techs/DJs can use it with
+                  minimal coding
+                </li>
+              </ul>
+            </div>
+
+            <hr />
+
+            <h2 class="h5">Relevant Training / Skills</h2>
+            <ul class="mb-0">
+              <li>
+                Technical support &amp; IT workflows, ticketing systems, secure data handling /
+                compliance-oriented processes
+              </li>
+              <li>
+                VR / real-time production: Unity, SteamVR ecosystem, VR hardware integration
+              </li>
+              <li>
+                Programming &amp; tooling: HTML, Python, Visual Basic; Docker/Anaconda-based deployments
+              </li>
+              <li>
+                Creative tools: Adobe Creative Cloud; 3D tools (Blender/3DS Max/MMD);
+                engines (Unity/Unreal)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+	  
+	  	  <p>
+            Design planning and themes concepted with <a href="https://bootstrap.build/app">https://bootstrap.build/app</a>.
+          </p>
+		  <a href="../resources/resume.pdf" target="_blank" download="resume.pdf">
+  <button>Download PDF</button>
+</a>
+
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <div>
+          <span>&copy; 2026 Joshua Stone</span>
+        </div>
+        <div class="d-flex gap-3">
+          <a class="text-light footer-link" href="https://github.com/Hai-L9" target="https://github.com/Hai-L9" rel="noreferrer">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

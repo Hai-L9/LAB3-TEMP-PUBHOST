@@ -1,0 +1,41 @@
+:root {
+  --site-accent: #0d6efd;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer pls stay at bottom */
+main {
+  flex: 1;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.section-title {
+  border-left: 4px solid var(--site-accent);
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* this looks so bad */
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

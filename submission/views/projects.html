@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joshua's Page - Projects</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./home.html">Lab 3</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./projects.html">Projects</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text">
+            <i class="bi bi-controller fs-4" title="game controller thingy"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-5">
+      <h1 class="mb-4 section-title">Projects</h1>
+
+      <div class="accordion" id="projectsAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Project 1: RVC Voice Cloning
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#projectsAccordion"
+          >
+            <div class="accordion-body">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="../resources/img/project1.png"
+                    class="img-fluid rounded shadow-sm"
+                    alt="Screenshot of Project 1"
+                  />
+                </div>
+                <div class="col-12 col-md-8">
+                  <p class="mb-2">
+                    This is an MMVC powered AI voice changer that ran in real time.
+					It lets users use pre-trained ai voice models to convert their speech in real time. All software used is not owned by me I only created a UI and merged mutliple models to allow for realtime converstion.
+                  </p>
+                  <ul class="mb-0">
+                    <li>Cross compatable with multiple model types. (svc, DDSP, RVC) </li>
+                    <li>Built to run in Docker or Anaconda</li>
+                    <li>Realtime conversion possible thanks to open source PyTorch libraries and NVIDIA CUDA</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Project 2: VRC-DMX Lighting System
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#projectsAccordion"
+          >
+            <div class="accordion-body">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="../resources/img/project2.jpg"
+                    class="img-fluid rounded shadow-sm"
+                    alt="Screenshot of Project 2"
+                  />
+                </div>
+                <div class="col-12 col-md-8">
+                  <p class="mb-2">
+                    VRC-DMX is a collection of shaders, scripts, and models designed to emulate professional stage lighting into VRChat with Unity 2019.4 and UdonSharp.
+                  </p>
+                  <ul class="mb-0">
+                    <li>Translates input from industry standard (Artnet) DMX information to control virtual lightsources</li>
+                    <li>Handles synchronization of game enviornments for all remote players for live performances</li>
+                    <li>Drag-and-drop for VRChat and Unity world creation with a simple UI to allow Stage-techs and DJs with little coding experience to easily learn and use effectively.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Project 3: Personal website for CSCI 3308
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#projectsAccordion"
+          >
+            <div class="accordion-body">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="../resources/img/project3.png"
+                    class="img-fluid rounded shadow-sm"
+                    alt="Personal webside screenshot"
+                  />
+                </div>
+                <div class="col-12 col-md-8">
+                  <p class="mb-2">
+                    A personal page that demonstrates mastery of basic HTML and CSS with Bootstap.
+                  </p>
+                  <ul class="mb-0">
+                    <li>Multiple pages with easy navigation</li>
+                    <li>Sleek and simple design</li>
+                    <li>Easily deserving of full marks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <p>
+            Design planning and themes concepted with <a href="https://bootstrap.build/app">https://bootstrap.build/app</a>.
+          </p>
+
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <div>
+          <span>&copy; 2026 Joshua Stone</span>
+        </div>
+        <div class="d-flex gap-3">
+          <a class="text-light footer-link" href="https://github.com/Hai-L9" target="https://github.com/Hai-L9" rel="noreferrer">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
